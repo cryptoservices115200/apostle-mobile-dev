@@ -1,0 +1,13 @@
+diff --git a/node_modules/react-native-gantt-chart/src/Axis.js b/node_modules/react-native-gantt-chart/src/Axis.js
+index 1da45a6..235c110 100644
+--- a/node_modules/react-native-gantt-chart/src/Axis.js
++++ b/node_modules/react-native-gantt-chart/src/Axis.js
+@@ -67,7 +67,7 @@ const Axis = props => {
+             x={pos}
+             y={y - 2 * TICK_SIZE}
+           >
+-            {moment(scale.invert(pos)).format('D MMM')}
++            {moment(scale.invert(pos)).format('h:mm A')}
+           </Text>
+         )
+       })}
